@@ -1,0 +1,84 @@
+a
+{
+    text-decoration: none;
+    color: white;
+}
+footer{
+  color:black;
+   padding: 0 !important;
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+#banner a:hover
+{
+color: white;
+text-decoration: underline;
+}
+#banner
+{
+    background-image: linear-gradient(to right, #ffc107,#f46e00);
+    color:#ffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+*{
+    box-sizing: boder-box;
+    margin:0;
+    padding:0;
+}
+
+.navbar-brand a{
+    color:#ffff;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #f6b719,#f46e00);
+    padding: 0 !important;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+ color: #ffff !important;
+ font-weight: 600;
+ float: right;
+ text-align: left;
+}
+.fa-bars 
+{
+    color: #ffff !important;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*--------banner section---------*/
+#banner
+{
+    background-image: linear-gradient(to right, #f6b719,#f46e00);
+    color:#ffff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+svg
+{
+    color: #f6b719
+   
+}
+svg:hover{
+    color: black;
+}
+ul{
+    margin:0;
+    padding:0;
+}
