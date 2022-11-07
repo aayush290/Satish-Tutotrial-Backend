@@ -88,8 +88,11 @@ app.post("/admission", (req,res) =>{
         email: req.body.email,
         school: req.body.school,
         dob: req.body.dob}]);
+        //window.alert("Your Request for Admission has been Recorded Successfully, Your Admission will be Conformed on Call within 2 working days");
+        //window.alert('Submitted');
         res.redirect("admission");
-        window.alert("Data Inserted Successfully");
+        
+        
 })
 
 app.get("/contact", (req,res) => {
